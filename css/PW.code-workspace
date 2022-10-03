@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../PAGINA WEB"
+		},
+		{
+			"path": "../../Programacion Web"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "PW"
+	}
+}
