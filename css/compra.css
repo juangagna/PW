@@ -1,0 +1,46 @@
+nav{
+    text-align: right;
+    padding: 80px 80px 0px 500px;
+    display: inline;
+}
+nav  a{
+    color: black;
+    font-weight: 500;
+    text-decoration: black;
+    margin-right: 15px;
+}
+nav  a:hover{
+    text-decoration:underline;
+}
+
+
+.productos {
+    background-color: whitesmoke;
+    
+  }
+  .prods {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .button {
+    color: white;
+    ;
+  }
+
+  card {
+    background-color: rgb(233, 109, 109);
+    margin: 30px;
+    
+  }
+
+  .textocalculadora {
+    padding-top: 50px;
+    font-size: 18px;
+    background-color: lightgray;
+  }
+  .APAGAR {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 40px;
+  }

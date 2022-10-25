@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/compra.css">
+</head> 
+
+<header>
+    <img src="imagenesss/LOGO.png" alt="">
+    <nav>
+        
+      <a href="index.html#carouselExampleCaptions">Inicio</a>
+      <a href="index.html#cont1">Sobre Nosotros</a>
+      <a href="http://www.vistagolf.com.ar/Handicap/FiltroArg.asp">Consultá tu Handicap</a>
+      <a href="index.html#map">Dirección</a>
+      <a href="consulta.html">Hacé tu consulta</a>
+      <a href="consulta.html">Comprá nuestros productos</a>
+
+      
+  </nav>
+  </header> 
+<body>
+    
+  <section class="productos" id="productos">
+    <section class="prods">
+      <div class="card" style="width: 25rem">
+        <img src="imagenesss/chombaa.jpg" class="" id="chomba" />
+        <div class="card-body">
+          <h5 class="card-title">Chomba RCGC</h5>
+          <p class="card-text">
+           Chomba de golf del club
+          </p>
+
+          <button
+            type="button"
+            class="Comprar"
+            onclick="sumarprecio(10000)"
+            style="BORDER: rgb(128,128,128) 1px dashed; FONT-SIZE: 15pt; FONT-FAMILY: Verdana;
+        BACKGROUND-COLOR: rgb(233,233,233)"
+          >
+            Comprar
+          </button>
+          <h4>$10.000</h4>
+        </div>
+      </div>
+      <div class="card" style="width: 25rem">
+        <img src="imagenesss/gorra.jpg" class="card-img-top" alt="" />
+        <div class="card-body">
+          <h5 class="card-title">Gorra RCGC</h5>
+          <p class="card-text">
+           Gorra de golf del club
+          </p>
+
+          <button
+            type="button"
+            class="Comprar"
+            onclick="sumarprecio(5000)"
+            style="BORDER: rgb(128,128,128) 1px dashed; FONT-SIZE: 15pt; FONT-FAMILY: Verdana;
+        BACKGROUND-COLOR: rgb(233,233,233)"
+          >
+          Comprar
+          </button>
+          <h4>$5000</h4>
+        </div>
+      </div>
+      <div class="card" style="width: 25rem">
+        <img src="imagenesss/toalla.png" class="card-img-top" alt="" />
+        <div class="card-body">
+          <h5 class="card-title">Toalla RCGC</h5>
+          <p class="card-text">
+            Toalla de golf del club 
+          </p>
+
+          <button
+            type="button"
+            class="Comprar"
+            onclick="sumarprecio(3000)"
+            style="BORDER: rgb(128,128,128) 1px dashed; FONT-SIZE: 15pt; FONT-FAMILY: Verdana;
+        BACKGROUND-COLOR: rgb(233,233,233)"
+          >
+          Comprar
+          </button>
+          <h4>$3000</h4>
+        </div>
+      </div>
+    </section>
+</body>
+<footer>
+  <section>
+    <div class="carro" id="calculadora">
+      <div class="textocalculadora">
+        <h3>Total de compra</h3>
+      <div class="APAGAR">
+        <p id="Total">TOTAL: $0 Pesos</p>
+        <button type="button" class="" onclick="Borrar()" style="BORDER: rgb(128,128,128) 1px dashed; FONT-SIZE: 20pt; FONT-FAMILY: Verdana;
+        BACKGROUND-COLOR: rgb(233,233,233)">
+          Vaciar Carrito
+        </button>
+      </div>
+    </div>
+  </section>
+</footer>
+<script src="./script.js"></script>
+</html>
