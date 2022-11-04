@@ -1,30 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Consulta</title>
-    <link rel="stylesheet" href="css/consulta.css">
-    
-</head>
 
-  <header>
-    <img src="imagenesss/LOGO.png" alt="">
-    <nav>
-        
-      <a href="index.html#carouselExampleCaptions">Inicio</a>
-      <a href="index.html#cont1">Sobre Nosotros</a>
-      <a href="http://www.vistagolf.com.ar/Handicap/FiltroArg.asp">Consultá tu Handicap</a>
-      <a href="index.html#map">Dirección</a>
-      <a href="consulta.html">Hacé tu consulta</a>
-      <a href="consulta.html">Comprá nuestros productos</a>
 
-      
-  </nav>
-  </header> 
- 
-<html>
+
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -32,8 +10,37 @@
         <link rel="stylesheet" href="https://codepen.io/gymratpacks/pen/VKzBEp#0">
         <link href='https://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/consulta.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    
     </head>
     <body>
+
+
+      <div class="topnav" id="myTopnav">
+        <a href="index.html#carouselExampleCaptions"><img src="imagenesss/LOGO.png" alt=""></a>
+        <a href="index.html#cont1">Sobre Nosotros</a>
+          <a href="http://www.vistagolf.com.ar/Handicap/FiltroArg.asp">Consultá tu Handicap</a>
+          <a href="index.html#map">Dirección</a>
+          <a href="consulta.html">Hacé tu consulta</a>
+          <a href="compra.html">Comprá nuestros productos</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+
+    
+      <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+        </script>
       <div class="row">
     <div class="col-md-12">
       <form action="index.html" method="post">
