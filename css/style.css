@@ -15,6 +15,7 @@
 }
 .contenedor2 {
   justify-content: center;
+
 }
 
 
@@ -119,27 +120,7 @@ footer {
 
 
 
-  @media (min-width: 500px) {
-      .info__columna {
-        width: 50%;
-      }
-      .info .contenedor {
-        display: flex;
-        justify-content: space-between;
-      }
-    }
-    .dondeestamos {
-      margin: 20px;
-    }
- 
-    .fotocancha {
-      border-radius: 10%;
-      border: 10px solid #212121;
-      height: 50%;
-      width: 50%;
-    }
-
-
+  
 
     .topnav {
       overflow: hidden;
@@ -162,15 +143,23 @@ footer {
     }
     
     .topnav a.active {
-      background-color: #04AA6D;
+      background-color: #b5e2d1;
       color: white;
     }
     
     .topnav .icon {
       display: none;
     }
+    .contador {
+      width: 40%;
+      display: flex;
+      justify-content: space-around;
+      margin: 0 auto;
+      align-items: center;
+      background-color: #a7c9bd;
+    }
     
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 750px) {
       .topnav a:not(:first-child) {display: none;}
       .topnav a.icon {
         float: right;
@@ -178,7 +167,7 @@ footer {
       }
     }
     
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 750px) {
       .topnav.responsive {position: relative;}
       .topnav.responsive .icon {
         position: absolute;
@@ -192,5 +181,26 @@ footer {
       }
     }
   
+    @media (min-width: 750px) {
+      .info__columna {
+        width: 50%;
+      }
+      .info .contenedor {
+        display: flex;
+        justify-content: space-between;
+      
+    }
+    .dondeestamos {
+      margin: 20px;
+    }
+ 
+    .fotocancha {
+      border-radius: 10%;
+      border: 10px solid #212121;
+      height: 50%;
+      width: 50%;
+    }
 
+
+  }
     
