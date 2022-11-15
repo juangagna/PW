@@ -1,16 +1,9 @@
 let Total = 0;
-console.log("Hola juan carlos");
+console.log("Holaa");
 function sumarprecio(valorproducto) {
   Total = Total + valorproducto;
   document.getElementById("Total").innerHTML =
     "TOTAL: " + "$" + Total + " Pesos";
-}
-function restarprecio(valorproducto) {
-  Total = Total  - valorproducto;
-  
-  document.getElementById("Total").innerHTML = "TOTAL: " + "$" + Total + " Pesos";
-
-  
 }
 function Borrar() {
   Total = 0;
